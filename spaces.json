@@ -1,0 +1,32 @@
+[
+  {
+    "name": "WALC Quiet Floor",
+    "building": "WALC",
+    "capacity": 80,
+    "noise_level": "quiet"
+  },
+  {
+    "name": "WALC Group Rooms",
+    "building": "WALC",
+    "capacity": 40,
+    "noise_level": "group"
+  },
+  {
+    "name": "Hicks Library Main Floor",
+    "building": "Hicks",
+    "capacity": 120,
+    "noise_level": "quiet"
+  },
+  {
+    "name": "Hicks Library Basement",
+    "building": "Hicks",
+    "capacity": 60,
+    "noise_level": "silent"
+  },
+  {
+    "name": "PMU Study Lounge",
+    "building": "PMU",
+    "capacity": 50,
+    "noise_level": "moderate"
+  }
+]
