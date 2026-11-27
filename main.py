@@ -1,18 +1,18 @@
 """Study Space Finder: shows which Purdue study spaces are Quiet, Filling up, or Full."""
-import json
-
-
-def load_spaces(path="spaces.json"):
-    """Read the list of study spaces from a JSON file."""
-    with open(path) as f:
-        return json.load(f)
+from data import load_spaces, load_readings, spaces_with_status
 
 
 def main():
     spaces = load_spaces()
-    print("Study spaces:")
-    for space in spaces:
-        print(f"- {space['name']} ({space['building']})")
+    readings = load_readings()
+    items = spaces_with_status(spaces, readings)
+
+    print("Study spaces right now:")
+    for item in items:
+        print(
+            f"- {item['name']} ({item['building']}): "
+            f"{item['status']} ({item['count']}/{item['capacity']})"
+        )
 
 
 if __name__ == "__main__":
