@@ -1,32 +1,58 @@
 [
-  {
-    "name": "WALC Quiet Floor",
-    "building": "WALC",
-    "capacity": 80,
-    "noise_level": "quiet"
-  },
-  {
-    "name": "WALC Group Rooms",
-    "building": "WALC",
-    "capacity": 40,
-    "noise_level": "group"
-  },
-  {
-    "name": "Hicks Library Main Floor",
-    "building": "Hicks",
-    "capacity": 120,
-    "noise_level": "quiet"
-  },
-  {
-    "name": "Hicks Library Basement",
-    "building": "Hicks",
-    "capacity": 60,
-    "noise_level": "silent"
-  },
-  {
-    "name": "PMU Study Lounge",
-    "building": "PMU",
-    "capacity": 50,
-    "noise_level": "moderate"
-  }
+  {"name": "WALC Silent Study Room", "building": "WALC", "floor": "3rd floor", "capacity": 60, "noise_level": "silent", "computers": 0, "features": ["individual desks", "outlets at every seat", "natural light"]},
+  {"name": "WALC Quiet Floor", "building": "WALC", "floor": "2nd floor", "capacity": 80, "noise_level": "quiet", "computers": 10, "features": ["outlets at every seat", "whiteboards", "printer nearby"]},
+  {"name": "WALC Open Commons", "building": "WALC", "floor": "1st floor", "capacity": 100, "noise_level": "moderate", "computers": 0, "features": ["coffee nearby", "charging stations", "comfy seating"]},
+  {"name": "WALC Computer Lab", "building": "WALC", "floor": "1st floor", "capacity": 50, "noise_level": "quiet", "computers": 40, "features": ["printer", "scanner", "dual monitors"]},
+  {"name": "WALC Group Room 201", "building": "WALC", "floor": "2nd floor", "capacity": 8, "noise_level": "group", "computers": 0, "features": ["whiteboard", "screen sharing monitor", "bookable"]},
+  {"name": "WALC Group Room 202", "building": "WALC", "floor": "2nd floor", "capacity": 6, "noise_level": "group", "computers": 0, "features": ["whiteboard", "bookable"]},
+  {"name": "WALC Group Room 203", "building": "WALC", "floor": "2nd floor", "capacity": 8, "noise_level": "group", "computers": 0, "features": ["whiteboard", "screen sharing monitor", "bookable"]},
+  {"name": "WALC Group Room 204", "building": "WALC", "floor": "2nd floor", "capacity": 10, "noise_level": "group", "computers": 0, "features": ["whiteboard", "screen sharing monitor", "glass walls", "bookable"]},
+  {"name": "WALC Collaboration Studio", "building": "WALC", "floor": "2nd floor", "capacity": 30, "noise_level": "group", "computers": 0, "features": ["movable tables", "two whiteboards", "big display", "bookable"]},
+  {"name": "WALC Window Seats", "building": "WALC", "floor": "3rd floor", "capacity": 24, "noise_level": "quiet", "computers": 0, "features": ["natural light", "outlets at most seats"]},
+
+  {"name": "Hicks Main Floor", "building": "Hicks", "floor": "1st floor", "capacity": 120, "noise_level": "quiet", "computers": 20, "features": ["outlets at most seats", "printer", "help desk nearby"]},
+  {"name": "Hicks Basement", "building": "Hicks", "floor": "Basement", "capacity": 60, "noise_level": "silent", "computers": 0, "features": ["individual carrels", "outlets at every seat", "no talking allowed"]},
+  {"name": "Hicks Reading Room", "building": "Hicks", "floor": "2nd floor", "capacity": 70, "noise_level": "silent", "computers": 0, "features": ["long tables", "reading lamps", "natural light"]},
+  {"name": "Hicks Computer Area", "building": "Hicks", "floor": "1st floor", "capacity": 36, "noise_level": "quiet", "computers": 30, "features": ["printer", "scanner", "Microsoft Office installed"]},
+  {"name": "Hicks Media Lounge", "building": "Hicks", "floor": "2nd floor", "capacity": 40, "noise_level": "moderate", "computers": 6, "features": ["video editing software", "large monitors", "headphones allowed"]},
+  {"name": "Hicks Group Room 1", "building": "Hicks", "floor": "1st floor", "capacity": 8, "noise_level": "group", "computers": 0, "features": ["whiteboard", "bookable"]},
+  {"name": "Hicks Group Room 2", "building": "Hicks", "floor": "1st floor", "capacity": 6, "noise_level": "group", "computers": 0, "features": ["whiteboard", "bookable"]},
+  {"name": "Hicks Group Room 3", "building": "Hicks", "floor": "2nd floor", "capacity": 6, "noise_level": "group", "computers": 0, "features": ["whiteboard", "bookable"]},
+  {"name": "Hicks Group Room 4", "building": "Hicks", "floor": "2nd floor", "capacity": 10, "noise_level": "group", "computers": 0, "features": ["whiteboard", "screen sharing monitor", "bookable"]},
+
+  {"name": "PMU Study Lounge", "building": "PMU", "floor": "2nd floor", "capacity": 50, "noise_level": "moderate", "computers": 0, "features": ["comfy seating", "outlets at some seats", "coffee nearby"]},
+  {"name": "PMU Second Floor Tables", "building": "PMU", "floor": "2nd floor", "capacity": 70, "noise_level": "moderate", "computers": 0, "features": ["large tables", "outlets at some seats"]},
+  {"name": "PMU Fireside Lounge", "building": "PMU", "floor": "1st floor", "capacity": 40, "noise_level": "quiet", "computers": 0, "features": ["fireplace", "comfy seating", "good for reading"]},
+  {"name": "PMU Quiet Corner", "building": "PMU", "floor": "3rd floor", "capacity": 28, "noise_level": "quiet", "computers": 0, "features": ["individual desks", "outlets at every seat"]},
+  {"name": "PMU Lower Level Nook", "building": "PMU", "floor": "Basement", "capacity": 24, "noise_level": "moderate", "computers": 4, "features": ["printer nearby", "small and cozy"]},
+  {"name": "PMU Meeting Room A", "building": "PMU", "floor": "2nd floor", "capacity": 10, "noise_level": "group", "computers": 0, "features": ["whiteboard", "screen sharing monitor", "bookable"]},
+  {"name": "PMU Meeting Room B", "building": "PMU", "floor": "2nd floor", "capacity": 12, "noise_level": "group", "computers": 0, "features": ["whiteboard", "projector", "bookable"]},
+  {"name": "PMU Meeting Room C", "building": "PMU", "floor": "3rd floor", "capacity": 8, "noise_level": "group", "computers": 0, "features": ["whiteboard", "video call setup", "bookable"]},
+  {"name": "PMU Meeting Room D", "building": "PMU", "floor": "3rd floor", "capacity": 16, "noise_level": "group", "computers": 0, "features": ["projector", "video call setup", "bookable"]},
+
+  {"name": "Stewart Reading Room", "building": "Stewart Center", "floor": "1st floor", "capacity": 90, "noise_level": "silent", "computers": 0, "features": ["long tables", "reading lamps", "natural light"]},
+  {"name": "Stewart Quiet Balcony", "building": "Stewart Center", "floor": "2nd floor", "capacity": 30, "noise_level": "silent", "computers": 0, "features": ["individual desks", "outlets at every seat", "view of the atrium"]},
+  {"name": "Stewart Research Commons", "building": "Stewart Center", "floor": "2nd floor", "capacity": 40, "noise_level": "quiet", "computers": 16, "features": ["research computers", "printer", "librarian help desk"]},
+  {"name": "Stewart Seminar Room", "building": "Stewart Center", "floor": "1st floor", "capacity": 16, "noise_level": "group", "computers": 0, "features": ["whiteboard", "projector", "bookable"]},
+  {"name": "Stewart Seminar Room B", "building": "Stewart Center", "floor": "1st floor", "capacity": 12, "noise_level": "group", "computers": 0, "features": ["whiteboard", "projector", "bookable"]},
+  {"name": "Stewart Study Room 1", "building": "Stewart Center", "floor": "2nd floor", "capacity": 6, "noise_level": "group", "computers": 0, "features": ["whiteboard", "quiet voices only", "bookable"]},
+  {"name": "Stewart Lounge", "building": "Stewart Center", "floor": "1st floor", "capacity": 45, "noise_level": "moderate", "computers": 0, "features": ["comfy seating", "coffee nearby"]},
+
+  {"name": "Lawson Commons", "building": "Lawson", "floor": "1st floor", "capacity": 60, "noise_level": "moderate", "computers": 0, "features": ["outlets at most seats", "whiteboards", "vending machines"]},
+  {"name": "Lawson Computer Lab", "building": "Lawson", "floor": "2nd floor", "capacity": 45, "noise_level": "quiet", "computers": 45, "features": ["Linux workstations", "dual monitors", "printer"]},
+  {"name": "Lawson Quiet Alcove", "building": "Lawson", "floor": "3rd floor", "capacity": 20, "noise_level": "silent", "computers": 0, "features": ["individual desks", "outlets at every seat"]},
+  {"name": "Lawson Project Lounge", "building": "Lawson", "floor": "2nd floor", "capacity": 36, "noise_level": "group", "computers": 4, "features": ["whiteboards", "big display", "movable tables", "bookable"]},
+  {"name": "Lawson Group Room A", "building": "Lawson", "floor": "1st floor", "capacity": 8, "noise_level": "group", "computers": 0, "features": ["whiteboard", "screen sharing monitor", "bookable"]},
+  {"name": "Lawson Group Room B", "building": "Lawson", "floor": "1st floor", "capacity": 8, "noise_level": "group", "computers": 0, "features": ["whiteboard", "screen sharing monitor", "bookable"]},
+  {"name": "Lawson Group Room C", "building": "Lawson", "floor": "1st floor", "capacity": 8, "noise_level": "group", "computers": 0, "features": ["whiteboard", "screen sharing monitor", "bookable"]},
+  {"name": "Lawson Group Room D", "building": "Lawson", "floor": "1st floor", "capacity": 6, "noise_level": "group", "computers": 0, "features": ["whiteboard", "bookable"]},
+
+  {"name": "Krannert Atrium", "building": "Krannert", "floor": "1st floor", "capacity": 70, "noise_level": "moderate", "computers": 0, "features": ["natural light", "coffee nearby", "outlets at some seats"]},
+  {"name": "Krannert Quiet Room", "building": "Krannert", "floor": "2nd floor", "capacity": 30, "noise_level": "silent", "computers": 0, "features": ["individual desks", "outlets at every seat"]},
+  {"name": "Krannert Computer Lab", "building": "Krannert", "floor": "3rd floor", "capacity": 40, "noise_level": "quiet", "computers": 35, "features": ["Excel and data tools", "printer", "dual monitors"]},
+  {"name": "Krannert Case Study Lounge", "building": "Krannert", "floor": "1st floor", "capacity": 34, "noise_level": "group", "computers": 0, "features": ["movable tables", "whiteboards", "bookable"]},
+  {"name": "Krannert Team Room 1", "building": "Krannert", "floor": "2nd floor", "capacity": 10, "noise_level": "group", "computers": 0, "features": ["whiteboard", "screen sharing monitor", "bookable"]},
+  {"name": "Krannert Team Room 2", "building": "Krannert", "floor": "2nd floor", "capacity": 10, "noise_level": "group", "computers": 0, "features": ["whiteboard", "screen sharing monitor", "bookable"]},
+  {"name": "Krannert Team Room 3", "building": "Krannert", "floor": "2nd floor", "capacity": 8, "noise_level": "group", "computers": 0, "features": ["whiteboard", "screen sharing monitor", "bookable"]},
+  {"name": "Krannert Team Room 4", "building": "Krannert", "floor": "2nd floor", "capacity": 10, "noise_level": "group", "computers": 0, "features": ["whiteboard", "screen sharing monitor", "bookable"]}
 ]
